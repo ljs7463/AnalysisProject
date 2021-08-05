@@ -1,6 +1,9 @@
 import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import json
+import requests
+
 
 browser = webdriver.Chrome()
 browser.get('https://events.interpark.com/exhibition?exhibitionCode=201215006')
@@ -14,5 +17,4 @@ for discount in discounts:
     print("주소 :", discount.attrs['href'])
     print("이미지 :", discount.find('img').attrs['src'])# 이미지로 바꾸기
     print('-'*100)
-
-
+    
