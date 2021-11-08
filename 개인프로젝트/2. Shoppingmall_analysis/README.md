@@ -1,4 +1,6 @@
 ## 여성 홈쇼핑 데이터 분석
+
+![bandicam 2021-11-08 14-45-44-074](https://user-images.githubusercontent.com/66814045/140690430-a28e0e7b-2b13-4c52-bbdb-405cee447d23.jpg)
 ---
 
 파일 설명 
